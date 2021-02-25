@@ -1,0 +1,249 @@
+@media screen and (min-width:481px){
+    #navbar{
+        position:fixed;
+        top:0;
+        left:0;
+        width:100vw !important;
+        height:50px;
+        background-color:#dc143c;
+        display:flex;
+        flex-direction:row;
+        justify-content:flex-end;
+        align-items:center;
+        border-bottom:solid 2px black;
+        overflow-x:hidden !important;
+      }
+      #navbar a{
+        font-size:3px;
+        color:white;
+        text-decoration:none;
+        font-weight:bold;
+        padding-left:1%;
+        margin-left:3%;
+      }
+      #navbar a:hover{
+        color:black !important;
+      }
+      #welcome-section{
+       display:flex;
+       flex-direction:column;
+       justify-content:center;
+       background-color:rgb(53,56,57);
+       width:100vw !important;
+       height:100vh;
+       overflow-x:hidden !important;
+    }
+      h1{
+        text-align:center;
+        margin-top:0px;
+        padding-top:130px;
+        margin-bottom:0px;
+        font-size:80px;
+        font-weight:bold;
+        color:white;  
+        font-family:Helvetica;
+
+      }
+       p{
+        text-align:center;
+        font-size:40px;
+        font-weight:bold;
+        color:rgb(255,105,97); 
+        font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+      }
+      #projects{
+        background-color:#45567d;
+        width:auto;
+        height:auto;
+        padding-top:0px;
+        overflow-x:hidden !important;
+       }
+      #project-title{
+       text-decoration:underline;
+       color:white;
+       font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;  
+       font-size:40px;
+       font-weight:bold;
+       padding:55px 0px 100px 0px;
+      }
+      .project-tile{
+        display:flex;
+        flex-direction:row;
+        flex-wrap:wrap;
+        justify-content:flex-start;
+      }
+      #image{
+        width:255px;
+        height:235px;
+        padding-left:200px;
+      }
+      .project-tile button{
+        color:white;
+        font-size:20px;
+        font-weight:none;
+        font-family:arial;
+        text-align:center;
+        margin-left:200px;
+        background-color:#353839;
+        display:block;
+        width:255px;
+        padding:10px 10px 0px 10px;
+        margin-bottom:30px;
+      }
+      a{
+        text-decoration:none;
+      }
+      button:hover{
+        background-color:#b38b6d;
+        transform:scale(1);
+        color:black;
+        font-weight:bold;
+      }
+      #profile-link{
+        background-color:rgb(53,56,57);
+        width:100vw !important;
+        height:80vh !important;
+        padding-top:10% !important;
+        overflow-x:hidden !important;
+      }
+      #apps{
+        display:flex;
+        flex-direction:row !important;
+        justify-content:flex-start !important;
+        flex-wrap:wrap;
+        width:100vw-10 !important;
+        margin-left:-1% !important;
+      }
+      #apps a{  
+        text-align: center; 
+        font-size:20px !important;  
+        width: auto !important;
+        height:auto !important;
+        color:black;
+      } 
+      #profile-link a:hover{
+        padding-top:3% !important;
+      }
+  
+}
+#navbar{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:50px;
+    background-color:#dc143c;
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-end;
+    align-items:center;
+    border-bottom:solid 2px black;
+  }
+  #navbar a{
+    font-size:25px;
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+    padding:80px 40px 0px 0px;
+    margin-left:35px;
+  }
+  #navbar a:hover{
+    background-color:rgb(42,82,191);
+    padding:25px;
+    padding-bottom:11px;
+  }
+    #welcome-section{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    background-color:rgb(53,56,57);
+    width:100vw;
+    height:100vh;
+   }
+  h1{
+    text-align:center;
+    margin-top:0px;
+    padding-top:130px;
+    margin-bottom:0px;
+    font-size:80px;
+    font-weight:bold;
+    color:white;  
+    font-family:Helvetica;
+  }
+   p{
+    text-align:center;
+    font-size:40px;
+    font-weight:bold;
+    color:rgb(255,105,97); 
+    font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+  }
+  #projects{
+    background-color:#45567d;
+    width:100vw;
+    height:auto;
+    padding-top:0px;
+   }
+  #project-title{
+   text-decoration:underline;
+   color:white;
+   font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;  
+   font-size:40px;
+   font-weight:bold;
+   padding:55px 0px 100px 0px;
+  }
+  .project-tile{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:flex-start;
+  }
+  #image{
+    width:255px;
+    height:235px;
+    padding-left:200px;
+  }
+  .project-tile button{
+    color:white;
+    font-size:20px;
+    font-weight:none;
+    font-family:arial;
+    text-align:center;
+    margin-left:200px;
+    background-color:#353839;
+    display:block;
+    width:255px;
+    padding:10px 10px 0px 10px;
+    margin-bottom:30px;
+  }
+  a{
+    text-decoration:none;
+  }
+  button:hover{
+    background-color:#b38b6d;
+    transform:scale(1);
+    color:black;
+    font-weight:bold;
+  }
+  #profile-link{
+    background-color:rgb(53,56,57);
+    width:100vw;
+    height:auto;
+    padding-top:10px;
+  }
+  #apps{
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-start;
+  }
+  #apps a{  
+    padding: 50px 35px 50px 300px; 
+    text-align: center;  
+    margin-left: 15px;  
+    font-size: 40px !important;  
+    width: 100px;
+    color:white !important;
+  } 
+  #profile-link a:hover{
+    padding-top:30px;
+  }
+  
